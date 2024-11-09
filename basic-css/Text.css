@@ -1,0 +1,24 @@
+/* Estilos para los textos generales */
+/*  */
+
+h1{
+    font-family: 'Roboto Condensed';
+    font-size: 32px;
+    font-weight: 900;
+    text-align: auto;
+    text-decoration: none;
+    letter-spacing: 3px; /* Espaciado entre letras */
+}
+
+
+p{
+    color: rgb(228, 228, 228);
+    font-family: 'Roboto Condensed'; /* Lo que hace la coma es separar la tipografia por si la primera que aparece no se puede usar por x motivo, se use la siguiente */
+    font-size: 16px; /* 16px es el default*/
+    font-weight: 500; /* El numero de grosor depende de la tipografia */
+    font-style: normal; /* Inclinacion */
+    text-align: normal; /* Alineacion del texto */
+    line-height: normal; /* Espaciado */
+    text-decoration: none; /* Decoracion (subrayado, tachado...) */
+    text-transform: none; /* Como se quiere el tema de las mayusculas y minusculas */
+}

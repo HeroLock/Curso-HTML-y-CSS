@@ -1,0 +1,84 @@
+/*  */
+
+body{
+    background-color:rgb(255, 255, 255);
+    margin: 0;
+}
+
+.title{
+    height: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center; /* Alinea los elementos al centro del div */
+}
+
+.notify{
+    box-sizing: border-box;
+    background: linear-gradient(to right, #ccc, transparent);
+    width: 90vw;
+    padding: 3%;
+    padding-left: 2%;
+    margin: 8vh auto;
+    border-radius: 20px;
+    border-left: 7px solid #888;
+    font-family: 'Roboto Condensed';
+    box-shadow: 0 0 20px 0 #0005; 
+    /* parametros de la sombra:
+    1 = desplazamiento horizontal 
+    2 = desplazamiento vertical
+    3 = desenfoque
+    4 = extension de la sombra
+    */
+}
+
+h1{
+    width: max-content;
+    font-weight: 900;
+    margin: 0;
+    font-size: 2em;
+    align-items: center; /* Alinea el span al centro del contenido del h1 */
+    display: flex; /* Alinea el span al centro del contenido del h1 */
+
+    text-shadow: 0 0 20px #555; /* El texto no trae extension de sombra */
+}
+
+span{
+    color: #666;
+    font-size: 0.5em; 
+    /* 1em es el size que utiliza el elemento padre (en este caso el h1 que trae 32px), so 0.5em = 16px */
+    /* rem es lo mismo que em pero en vez de buscar en el elemento padre busca en el elemento raiz (<html>) */
+    font-weight: 500;
+    padding-left: 1em;
+}
+
+p{
+    color: #555;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    transform-origin: center;
+    border-radius: 100rem;
+    box-shadow: 0 0 10px 0 #444;
+    /* Para imagenes .png se puede usar= filter: drop-shadow(0px 0px 5px #111); */
+}
+
+/* Caja para practicar con el background */
+.box{
+    width: 100px;
+    height: 100px;
+    margin:40px;
+    background: linear-gradient();
+}
+    /* 
+    Se puede definir todas las propiedades del fondo en un solo atributo (background) en este mismo orden: image, position, size, repeat, attachment y color. 
+    Por separado es asi ->
+    background-image: url("https://i.pinimg.com/736x/68/8d/d3/688dd325dbbdc238f4b70caffe77a5af.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-color: #efefef; 
+    */

@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: darkolivegreen;
+}
+
+td,
+th {
+  border-bottom: 1px solid #222222;
+  color: #ece4be;
+  padding: 5px;
+}
+
+th {
+  background-color: #1d1d1d;
+}
+
+table {
+  font-family: Tahoma;
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  border-spacing: 5px;
+  box-shadow: 0 0 20px #222a;
+}
+
+#total {
+  text-align: center;
+}

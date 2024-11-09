@@ -1,0 +1,58 @@
+/* Forma de definir tipografias que no se encuentran */
+
+/* Berlin Sans ---------------------------------------------*/
+
+/* Roboto Condensed ---------------------------------------------*/
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-Regular.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-Italic.ttf) format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-Bold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-BoldItalic.ttf) format("truetype");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-Black.ttf) format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-BlackItalic.ttf) format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-Light.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Roboto Condensed";
+    src: url(/Fonts/RobotoCondensed/RobotoCondensed-LightItalic.ttf) format("truetype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*  */

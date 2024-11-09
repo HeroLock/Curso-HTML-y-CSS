@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Form</title>
+    <link rel="shortcut icon" href="https://chaconarquitectoscr.com/wp-content/uploads/2018/05/favicon.png"
+        type="image/x-icon">
+</head>
+
+<body>
+    <form class="Form">
+        <h1>Formulario de Contacto</h1>
+        <fieldset>
+            <legend>Información Personal</legend>
+            <!-- Inputs Simples -->
+            <div class="containerInput">
+                <label class="tag" for="name">Nombre Completo</label>
+                <input id="name" type="text" placeholder="Engell Vado" required>
+            </div>
+            <div class="containerInput">
+                <label class="tag" for="mail">Email</label>
+                <input id="mail" type="email" placeholder="ejemplo@gmail.com" required>
+            </div>
+            <div class="containerInput">
+                <label class="tag" for="cellphone">Telefono</label>
+                <input id="cellphone" type="tel" placeholder="8888-8888" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Adicional</legend>
+            <!-- Text Area -->
+            <div class="containerInput">
+                <label class="tag" for="comment">Comentario</label>
+                <textarea id="comment" rows="4" name="textArea" placeholder="Me parece muy bien que..."></textarea>
+            </div>
+            <!-- DataList -->
+            <div class="containerInput">
+                <label for="user">Tipo de Usuario</label>
+                <input id="user" list="usuario" title="Usuario">
+                <datalist id="usuario">
+                    <option value="Estudiante">Solo Estudio</option>
+                    <option value="Trabajador">Solo Trabajo</option>
+                    <option value="Mixto">Estudio y Trabajo</option>
+                    <option value="Profesor">Soy Profesor</option>
+                    <option value="Libre">Estoy libre</option>
+                </datalist>
+            </div>
+        </fieldset>
+        <!-- Input Enviar -->
+        <div class="containerInput">
+            <input class="button" type="submit" name="send" id="send" value="Enviar">
+        </div>
+
+    </form>
+    <div class="FAQ">
+        <h2>FAQ</h2>
+        <details>
+            <summary>¿Para qué sirve esto?</summary>
+            <p>Esto está diseñado por Engell Gabriel para practicar sobre como aplicar estilos en CSS y sobre algunas
+                etiquetas de HTML. La idea es que actue como si fuera un formulario para preguntar la información de
+                algún usuario.</p>
+        </details>
+        <details>
+            <summary>¿Qué tengo que hacer?</summary>
+            <ul>
+                <li>Contestar la información personal.</li>
+                <li>Contestar la sección adicional si así se quisiera.</li>
+                <li>Enviar el formulario.</li>
+            </ul>
+        </details>
+        <br>
+        <div class="Terms">
+            <label for="check">Acepto los <a href="Terms.html" target="_blank">terminos y condiciones.</a> </label>
+            <input id="check" type="checkbox" title="acept">
+        </div>
+    </div>
+
+</body>
+
+</html>

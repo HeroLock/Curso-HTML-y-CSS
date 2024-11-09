@@ -1,0 +1,15 @@
+/* 
+El atributo border consta de 3 modificaciones en la misma linea::
+border: 
+    3px         //border-width
+    solid       //border-style
+    black       //border-color
+;
+Estas modificaciones se pueden hacer por separado si asi se quisiera y con los 4 borders que hay (top, bottom, left, right)
+
+Para mantener el size que establecemos con width y height sin que se modifiquen por los margenes o el relleno se puede usar el atributo:
+    box-sizing: border-box;
+
+Ahora, si queremos que el size del contenido se adapate a los otros parametros que le ponemos como el padding para mantener las medidas del width y el height se usaria: 
+    box-sizing: content-box;
+*/

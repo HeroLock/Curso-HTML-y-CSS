@@ -1,0 +1,14 @@
+/* Estilos para los margenes y rellenos */
+/*  */
+
+/* Para escribir el valor del padding/margin en cada direccion en una misma linea se hace en el sentido de las agujas del reloj, es decir, arriba-derecha-abajo-izquierda. Definiendolo se veria de esta manera: 
+padding/margin:10px    top
+        5px     right
+        10px    bottom
+        5px;    left
+
+Tambien se puede hacer con el formato vertical y horizontal, seria asi:
+padding/margin:10px    vertical
+        5px;    horizontal
+
+*/

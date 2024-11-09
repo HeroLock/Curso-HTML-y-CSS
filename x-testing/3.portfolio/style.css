@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Jetbrains Mono", "Geist Sans", helvetica;
+}
+
+body {
+  overflow: auto;
+}
+
+/* ----------------------------------- Header */
+.navBar {
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 30px 0 #333b;
+  background-color: #1a1a1a;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+.navBar__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 80%;
+  height: 100%;
+  padding-left: 5vw;
+}
+.navBar__link {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 4%;
+  color: #ffffff;
+  transition: text-shadow, color, 0.2s;
+}
+.navBar__link:first-child:hover {
+  color: #ae00ff;
+}
+.navBar__link:last-child:hover {
+  color: #19f;
+}
+.navBar__link:hover {
+  text-shadow: 0 0 10px #aaa4;
+  color: #ffbb00;
+}
+.image__container {
+  width: fit-content;
+  padding-right: 5vw;
+  display: flex;
+  justify-content: right;
+}
+.navBar__image {
+  max-height: 8vh;
+}
+/* ----------------------------------- Inicio */
+/* Background */
+.content__background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  height: 92vh;
+  background-image: url(../../images/Arbol.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  background-color: #1119;
+  box-shadow: 0 0 20px 0 #8383838e;
+  width: 100%;
+  height: 92vh;
+  position: absolute;
+  z-index: 10;
+}
+/* Content */
+.content__title,
+.content__subtitle,
+.content__links {
+  text-shadow: 0 0 10px #111f;
+  max-width: fit-content;
+  margin-left: 20%;
+  margin-right: 5%;
+  z-index: 20;
+}
+.content__links {
+  display: flex;
+  gap: 10%;
+}
+.content__title {
+  color: #ffbb00;
+  font-family: helvetica;
+  font-weight: 900;
+  font-size: 45px;
+  margin-bottom: 5px;
+  text-wrap: balance;
+}
+.content__subtitle {
+  color: #ffffff;
+  font-family: "Geist Mono";
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-wrap: balance;
+}
+.content__link {
+  color: #fff;
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #1117;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color, 0.3s;
+}
+.link__image {
+  width: 30px;
+}
+.content__link:hover {
+  background-color: #111a;
+}
+/* ----------------------------------- Cards */
+/* ------------------ Cards General Settings */
+.cards {
+  width: 100%;
+  height: 100%;
+  padding: 80px 0 0 0;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+.cards__item {
+  min-width: 200px;
+  max-width: 80%;
+  max-height: min-content;
+  padding: 30px 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px 0 #0a0a0a99;
+  background-color: #2a2a2a5d;
+}
+.cards__titles {
+  width: 100%;
+  text-align: center;
+  color: #ffbb00;
+  text-shadow: 0 0 10px #ffbb0099;
+  font-family: "Geist Mono";
+  font-size: 35px;
+  font-weight: 800;
+}
+/* ------------------ Projects Card */
+#proyectos{
+  height: 50px;
+}
+.projects__container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: start;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+}
+.projects__container h3 {
+  color: #5e059a;
+  width: 100%;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-decoration: transparent overline;
+  transition: text-shadow, text-decoration, 0.25s;
+}
+.projects__container h3:hover {
+  text-shadow: 0 0 10px #1117;
+  text-decoration: 2px overline;
+}
+.projects__container p {
+  color: #464646;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 0.5em;
+}
+.projects__container a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: #d2d2d2cc;
+  box-shadow: 0 0 0 0 #00000000;
+  border-radius: 12px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  transition: background-color, box-shadow, 0.2s;
+}
+.projects__container a:hover {
+  /* background-color: #a7a7a7a2; */
+  box-shadow: 0 0 10px 0 #0003;
+}
+.container__img {
+  width: 100%;
+  height: min-content;
+}
+.formulario__img,
+.notification__img,
+.layout__img {
+  width: 100%;
+  border-radius: 1em;
+}
+/* ------------------ About Card */
+.card--about .cards__titles {
+  color: #19f;
+  text-shadow: 0 0 10px #19f9;
+}
+.card--about p {
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+}
+/* ------------------ Footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #fff;
+  font-style: italic;
+}

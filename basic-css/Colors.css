@@ -1,0 +1,23 @@
+/* Colores */
+/* 
+El formato de color hexadecimal se usa parecido al rgb, pero con dos valores para cada una de las letras en vez de los 256 y al iniciar se usa in #. Para verlo seria asi,
+    #ffffff este seria el blanco, por que? El 'ff' es todo el color y separandolo seria:
+    rojo = ff , verde = ff, azul = ff; entonces estamos poniendo todo el rgb para formar blanco
+    #ff0000 = rojo -> simplificado es = #f00
+    #00ff00 = verde -> simplificado es = #0f0
+    #0000ff = azul -> simplificado es = #00f
+    00 = lo contrario de ff
+    
+    los valores van de 0 a 9 y de a-f, siendo el 0 lo mas bajo y f lo mas alto
+    recordar que:
+        a = 10
+        b = 11
+        c = 12
+        d = 13
+        e = 14
+        f = 15
+*/
+
+p{
+    color: #000000;
+}

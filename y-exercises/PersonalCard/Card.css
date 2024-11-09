@@ -1,0 +1,100 @@
+/*  */
+/* 
+605B56
+0D0221
+E7D7C1
+6320EE
+140D4F
+*/
+body{
+    background-color: #050505;
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    background-color: #0D0221;
+    font-family: "Roboto Condensed";
+    text-align: center;
+    box-shadow: 0 0 30px 0 #3334;
+    width: 70%;
+    margin: 6% auto;
+    padding: 4%;
+    border-radius: 60px;
+    display: flexbox;
+}
+
+.cardGreen{
+    background-color: #70b90f;
+}
+
+.cardRed{
+    background-color: #750d0d;
+}
+
+.cardImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 15px 0 #4448;
+}
+
+.greenImg{
+    box-shadow: 0 0 20px 0 #333f;
+}
+
+.redImg{
+    box-shadow: 0 0 20px 0 #202020;
+}
+
+.cardTitle{
+    font-weight: 900;
+    font-size: 45px;
+    color: #6320EE;
+    margin-bottom: 10px;
+    text-shadow: 0 0 20px #444;
+}
+
+.greenTitle{
+    color: #181717;
+}
+
+.redTitle{
+    text-shadow: 0 0 20px #2229;
+    color: #e7e7e7;
+}
+
+.cardSubTitle{
+    font-weight: 700;
+    color: #4300CE;
+    margin-top: 10px;
+    text-shadow: 0 0 10px #444;
+}
+
+.greenSubTitle{
+    color: #1a360d;
+    
+}
+
+.redSubTitle{
+    color: #181717;
+    text-shadow: 0 0 10px #2227;
+}
+
+.cardText{
+    font-weight: 100;
+    text-align: justify;
+    color: #E7D7C1;
+    padding: 30px;
+    margin-bottom: 20px;
+} 
+
+.greenText{
+    color: rgb(7, 41, 3);
+}
+
+.redText{
+    color: #181717;
+    font-weight: 500;
+}
